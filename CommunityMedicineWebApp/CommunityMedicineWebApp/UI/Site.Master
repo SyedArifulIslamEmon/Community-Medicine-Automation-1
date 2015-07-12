@@ -1,0 +1,53 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="CommunityMedicineWebApp.UI.Site" %>
+
+<!DOCTYPE html>
+<!-- Website template by freewebsitetemplates.com -->
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Red Coder</title>
+	<link href="../css/style.css" rel="stylesheet" />
+</head>
+<body>
+	<div id="header">
+		<div>
+			
+           <h1 style="color: yellow"><b>Community Medicine Web Application</b></h1>
+		</div>
+	</div>
+	<div id="body">
+		<div id="sidebar">
+			<ul>
+				<li class="current">
+					<a class="home" href="HeadOfficeMenu.aspx">Head Office</a>
+				</li>
+				<li>
+					<a class="about" href="CenterLoginUI.aspx">Center</a>
+				</li>
+				
+			</ul>
+			<div>
+				<h3>Contact Us</h3>
+				<a href="http://www.freewebsitetemplates.com/misc/contact" target="_blank" id="info">redcoder@gmail.com</a>
+				<a href="http://www.freewebsitetemplates.com/misc/contact" target="_blank" id="phone">01763005404</a>
+			</div>
+		</div>
+		<div class="home">
+			
+				<div style="color: #FFFFFF; font-size: large">
+				    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    
+                    </asp:ContentPlaceHolder>
+			    </div>
+			
+		</div>
+	</div>
+	<div id="footer">
+		<div>
+			<p>
+				Redcoder Team.
+			</p>
+		</div>
+	</div>
+</body>
+</html>

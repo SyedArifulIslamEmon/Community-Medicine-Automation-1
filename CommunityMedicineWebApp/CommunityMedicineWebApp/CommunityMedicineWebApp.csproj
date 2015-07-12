@@ -1,0 +1,324 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F0EDAA0B-52E0-451D-9118-44FDFC4C8048}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CommunityMedicineWebApp</RootNamespace>
+    <AssemblyName>CommunityMedicineWebApp</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EGIS.ShapeFileLib, Version=4.3.0.0, Culture=neutral, PublicKeyToken=05b98c869b5ffe6a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\EGIS.ShapeFileLib.dll</HintPath>
+    </Reference>
+    <Reference Include="EGIS.Web.Controls, Version=4.3.0.0, Culture=neutral, PublicKeyToken=05b98c869b5ffe6a, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\EGIS.Web.Controls.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp">
+      <HintPath>..\packages\iTextSharp.5.5.6\lib\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp.pdfa">
+      <HintPath>..\packages\itextsharp.pdfa.5.5.6\lib\itextsharp.pdfa.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DataVisualization" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bangladesh.egp" />
+    <Content Include="bangladesh\BGD_adm3.dbf" />
+    <Content Include="bangladesh\BGD_adm3.prj" />
+    <Content Include="bangladesh\BGD_adm3.shp" />
+    <Content Include="bangladesh\BGD_adm3.shx" />
+    <Content Include="css\style.css" />
+    <Content Include="images\bg-body.jpg" />
+    <Content Include="images\bg-content.png" />
+    <Content Include="images\bg-footer.png" />
+    <Content Include="images\bg-footer2.jpg" />
+    <Content Include="images\bg-header-pattern.png" />
+    <Content Include="images\bg-header1.jpg" />
+    <Content Include="images\bg-pattern.jpg" />
+    <Content Include="images\bg-separator.png" />
+    <Content Include="images\bg-separator2.png" />
+    <Content Include="images\curly.png" />
+    <Content Include="images\founder.jpg" />
+    <Content Include="images\icons.png" />
+    <Content Include="images\interface.png" />
+    <Content Include="images\jeans1.jpg" />
+    <Content Include="images\jeans2.jpg" />
+    <Content Include="images\logo.png" />
+    <Content Include="images\model.jpg" />
+    <Content Include="images\model2.jpg" />
+    <Content Include="images\separator.png" />
+    <Content Include="images\shoes.jpg" />
+    <Content Include="images\shoes2.jpg" />
+    <Content Include="images\tailor.jpg" />
+    <Content Include="packages.config" />
+    <Content Include="fonts\Bitter-Regular.eot" />
+    <Content Include="fonts\Bitter-Regular.svg" />
+    <Content Include="fonts\Bitter-Regular.ttf" />
+    <Content Include="fonts\Bitter-Regular.woff" />
+    <Content Include="UI\CenterMenu.aspx" />
+    <Content Include="UI\Site.Master" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="UI\AlldiseasesBarChart.aspx" />
+    <Content Include="UI\CenterCreateUI.aspx" />
+    <Content Include="UI\CenterLoginUI.aspx" />
+    <Content Include="UI\DiseaseDemogReport.aspx" />
+    <Content Include="UI\DiseaseEntry.aspx" />
+    <Content Include="UI\AfterLoginMenuUI.aspx" />
+    <Content Include="UI\DiseaseWiseReportUI.aspx" />
+    <Content Include="UI\DoctorEntryUI.aspx" />
+    <Content Include="UI\MedicineEntryUI.aspx" />
+    <Content Include="UI\MedicineStockReport.aspx" />
+    <Content Include="UI\SendMedicineUI.aspx" />
+    <Content Include="UI\ShowAllHistory.aspx" />
+    <Content Include="UI\ShowCenterUI.aspx" />
+    <Content Include="UI\HeadOfficeMenu.aspx" />
+    <Content Include="UI\TreatmentGivenUI.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BLL\AlldiseaseBarChartManager.cs" />
+    <Compile Include="BLL\CenterCreateManager.cs" />
+    <Compile Include="BLL\DiseaseEntryManager.cs" />
+    <Compile Include="BLL\DiseaseWiseReportManager.cs" />
+    <Compile Include="BLL\DistrictManager.cs" />
+    <Compile Include="BLL\DoctorEntryManager.cs" />
+    <Compile Include="BLL\MedicineManager.cs" />
+    <Compile Include="BLL\MedicineStockReportManager.cs" />
+    <Compile Include="BLL\ShowAllHistoryManager.cs" />
+    <Compile Include="BLL\TreatmentGivenManager.cs" />
+    <Compile Include="DAL\DAO\CenterCreate.cs" />
+    <Compile Include="DAL\DAO\Disease.cs" />
+    <Compile Include="DAL\DAO\DiseaseChart.cs" />
+    <Compile Include="DAL\DAO\DiseaseWise.cs" />
+    <Compile Include="DAL\DAO\District.cs" />
+    <Compile Include="DAL\DAO\DoctorEntry.cs" />
+    <Compile Include="DAL\DAO\Dose.cs" />
+    <Compile Include="DAL\DAO\Medicine.cs" />
+    <Compile Include="DAL\DAO\MedicineQuantity.cs" />
+    <Compile Include="DAL\DAO\SendMedicine.cs" />
+    <Compile Include="DAL\DAO\Thana.cs" />
+    <Compile Include="DAL\DAO\TreatmentGiven.cs" />
+    <Compile Include="DAL\DAO\Voter.cs" />
+    <Compile Include="DAL\Gateway\AlldiseaseBarChartGateway.cs" />
+    <Compile Include="DAL\Gateway\CenterCreateGateway.cs" />
+    <Compile Include="DAL\Gateway\DiseaseEntryGateway.cs" />
+    <Compile Include="DAL\Gateway\DiseaseWiseReportGateway.cs" />
+    <Compile Include="DAL\Gateway\DistrictGateway.cs" />
+    <Compile Include="DAL\Gateway\DoctorEntryGateway.cs" />
+    <Compile Include="DAL\Gateway\MedicineGateway.cs" />
+    <Compile Include="DAL\Gateway\MedicineStockReportGateway.cs" />
+    <Compile Include="DAL\Gateway\ShowAllHistoryGateway.cs" />
+    <Compile Include="DAL\Gateway\TreatmentGivenGateway.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UI\AlldiseasesBarChart.aspx.cs">
+      <DependentUpon>AlldiseasesBarChart.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\AlldiseasesBarChart.aspx.designer.cs">
+      <DependentUpon>AlldiseasesBarChart.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UI\CenterCreateUI.aspx.cs">
+      <DependentUpon>CenterCreateUI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\CenterCreateUI.aspx.designer.cs">
+      <DependentUpon>CenterCreateUI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UI\CenterLoginUI.aspx.cs">
+      <DependentUpon>CenterLoginUI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\CenterLoginUI.aspx.designer.cs">
+      <DependentUpon>CenterLoginUI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UI\CenterMenu.aspx.cs">
+      <DependentUpon>CenterMenu.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\CenterMenu.aspx.designer.cs">
+      <DependentUpon>CenterMenu.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UI\DiseaseDemogReport.aspx.cs">
+      <DependentUpon>DiseaseDemogReport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\DiseaseDemogReport.aspx.designer.cs">
+      <DependentUpon>DiseaseDemogReport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UI\DiseaseEntry.aspx.cs">
+      <DependentUpon>DiseaseEntry.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\DiseaseEntry.aspx.designer.cs">
+      <DependentUpon>DiseaseEntry.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UI\AfterLoginMenuUI.aspx.cs">
+      <DependentUpon>AfterLoginMenuUI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\AfterLoginMenuUI.aspx.designer.cs">
+      <DependentUpon>AfterLoginMenuUI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UI\DiseaseWiseReportUI.aspx.cs">
+      <DependentUpon>DiseaseWiseReportUI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\DiseaseWiseReportUI.aspx.designer.cs">
+      <DependentUpon>DiseaseWiseReportUI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UI\DoctorEntryUI.aspx.cs">
+      <DependentUpon>DoctorEntryUI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\DoctorEntryUI.aspx.designer.cs">
+      <DependentUpon>DoctorEntryUI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UI\MedicineEntryUI.aspx.cs">
+      <DependentUpon>MedicineEntryUI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\MedicineEntryUI.aspx.designer.cs">
+      <DependentUpon>MedicineEntryUI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UI\MedicineStockReport.aspx.cs">
+      <DependentUpon>MedicineStockReport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\MedicineStockReport.aspx.designer.cs">
+      <DependentUpon>MedicineStockReport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UI\SendMedicineUI.aspx.cs">
+      <DependentUpon>SendMedicineUI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\SendMedicineUI.aspx.designer.cs">
+      <DependentUpon>SendMedicineUI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UI\ShowAllHistory.aspx.cs">
+      <DependentUpon>ShowAllHistory.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\ShowAllHistory.aspx.designer.cs">
+      <DependentUpon>ShowAllHistory.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UI\ShowCenterUI.aspx.cs">
+      <DependentUpon>ShowCenterUI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\ShowCenterUI.aspx.designer.cs">
+      <DependentUpon>ShowCenterUI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Site.Master.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\Site.Master.designer.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+    </Compile>
+    <Compile Include="UI\HeadOfficeMenu.aspx.cs">
+      <DependentUpon>HeadOfficeMenu.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\HeadOfficeMenu.aspx.designer.cs">
+      <DependentUpon>HeadOfficeMenu.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UI\TreatmentGivenUI.aspx.cs">
+      <DependentUpon>TreatmentGivenUI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\TreatmentGivenUI.aspx.designer.cs">
+      <DependentUpon>TreatmentGivenUI.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>7379</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:7379/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

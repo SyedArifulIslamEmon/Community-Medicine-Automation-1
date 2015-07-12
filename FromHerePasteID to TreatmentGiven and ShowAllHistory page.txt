@@ -1,0 +1,5 @@
+{"voters":[{"id":"5644309456813","name":"Rimi Khanom","address":"House no: 12. Road no: 14. Dhanmondi, Dhaka","date_of_birth":"1979-01-15"},
+{"id":"9509623450915","name":"Asif Latif","address":"House no: 98. Road no: 14. Katalgonj, Chittagong","date_of_birth":"1988-07-11"},
+{"id":"1098789543218","name":"Rakib Hasan","address":"Vill. Shantinagar. Thana: Katalgonj, Faridpur","date_of_birth":"1982-04-12"},
+{"id":"7865409458659","name":"Rumon Sarker","address":"Kishorginj","date_of_birth":"1970-12-02"},
+{"id":"8909854343334","name":"Gaji Salah Uddin","address":"Chittagong","date_of_birth":"1965-06-16"}]}

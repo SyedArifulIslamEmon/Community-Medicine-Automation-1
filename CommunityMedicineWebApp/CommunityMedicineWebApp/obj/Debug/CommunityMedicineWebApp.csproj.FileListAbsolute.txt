@@ -1,0 +1,44 @@
+E:\Nayan Das .Net-4\20-06-2015\CommunityMedicineWebApp\CommunityMedicineWebApp\obj\Debug\CommunityMedicineWebApp.csprojResolveAssemblyReference.cache
+E:\Nayan Das .Net-4\20-06-2015\CommunityMedicineWebApp\CommunityMedicineWebApp\bin\CommunityMedicineWebApp.dll.config
+E:\Nayan Das .Net-4\20-06-2015\CommunityMedicineWebApp\CommunityMedicineWebApp\bin\CommunityMedicineWebApp.dll
+E:\Nayan Das .Net-4\20-06-2015\CommunityMedicineWebApp\CommunityMedicineWebApp\bin\CommunityMedicineWebApp.pdb
+E:\Nayan Das .Net-4\20-06-2015\CommunityMedicineWebApp\CommunityMedicineWebApp\obj\Debug\CommunityMedicineWebApp.dll
+E:\Nayan Das .Net-4\20-06-2015\CommunityMedicineWebApp\CommunityMedicineWebApp\obj\Debug\CommunityMedicineWebApp.pdb
+G:\Personal\BITM after E\20.06.15_Day_28\CommunityMedicineWebApp\CommunityMedicineWebApp\bin\CommunityMedicineWebApp.dll
+G:\Personal\BITM after E\20.06.15_Day_28\CommunityMedicineWebApp\CommunityMedicineWebApp\bin\CommunityMedicineWebApp.pdb
+G:\Personal\BITM after E\20.06.15_Day_28\CommunityMedicineWebApp\CommunityMedicineWebApp\obj\Debug\CommunityMedicineWebApp.csprojResolveAssemblyReference.cache
+G:\Personal\BITM after E\20.06.15_Day_28\CommunityMedicineWebApp\CommunityMedicineWebApp\obj\Debug\CommunityMedicineWebApp.dll
+G:\Personal\BITM after E\20.06.15_Day_28\CommunityMedicineWebApp\CommunityMedicineWebApp\obj\Debug\CommunityMedicineWebApp.pdb
+G:\Personal\BITM after E\Community Backup\24.06.15(1st presentation)\CommunityUptoCenterLogin\CommunityMedicineWebApp\CommunityMedicineWebApp\bin\CommunityMedicineWebApp.dll
+G:\Personal\BITM after E\Community Backup\24.06.15(1st presentation)\CommunityUptoCenterLogin\CommunityMedicineWebApp\CommunityMedicineWebApp\bin\CommunityMedicineWebApp.pdb
+G:\Personal\BITM after E\Community Backup\24.06.15(1st presentation)\CommunityUptoCenterLogin\CommunityMedicineWebApp\CommunityMedicineWebApp\obj\Debug\CommunityMedicineWebApp.csprojResolveAssemblyReference.cache
+G:\Personal\BITM after E\Community Backup\24.06.15(1st presentation)\CommunityUptoCenterLogin\CommunityMedicineWebApp\CommunityMedicineWebApp\obj\Debug\CommunityMedicineWebApp.dll
+G:\Personal\BITM after E\Community Backup\24.06.15(1st presentation)\CommunityUptoCenterLogin\CommunityMedicineWebApp\CommunityMedicineWebApp\obj\Debug\CommunityMedicineWebApp.pdb
+H:\Shakil\CommunityUpToShowAllHistory\CommunityMedicineWebApp\CommunityMedicineWebApp\bin\CommunityMedicineWebApp.dll.config
+H:\Shakil\CommunityUpToShowAllHistory\CommunityMedicineWebApp\CommunityMedicineWebApp\bin\CommunityMedicineWebApp.dll
+H:\Shakil\CommunityUpToShowAllHistory\CommunityMedicineWebApp\CommunityMedicineWebApp\bin\CommunityMedicineWebApp.pdb
+H:\Shakil\CommunityUpToShowAllHistory\CommunityMedicineWebApp\CommunityMedicineWebApp\obj\Debug\CommunityMedicineWebApp.csprojResolveAssemblyReference.cache
+H:\Shakil\CommunityUpToShowAllHistory\CommunityMedicineWebApp\CommunityMedicineWebApp\obj\Debug\CommunityMedicineWebApp.dll
+H:\Shakil\CommunityUpToShowAllHistory\CommunityMedicineWebApp\CommunityMedicineWebApp\obj\Debug\CommunityMedicineWebApp.pdb
+G:\Personal\BITM after E\Community Medicine Working File\CommunityMedicineWebApp\CommunityMedicineWebApp\bin\CommunityMedicineWebApp.dll
+G:\Personal\BITM after E\Community Medicine Working File\CommunityMedicineWebApp\CommunityMedicineWebApp\bin\CommunityMedicineWebApp.pdb
+G:\Personal\BITM after E\Community Medicine Working File\CommunityMedicineWebApp\CommunityMedicineWebApp\obj\Debug\CommunityMedicineWebApp.csprojResolveAssemblyReference.cache
+G:\Personal\BITM after E\Community Medicine Working File\CommunityMedicineWebApp\CommunityMedicineWebApp\obj\Debug\CommunityMedicineWebApp.dll
+G:\Personal\BITM after E\Community Medicine Working File\CommunityMedicineWebApp\CommunityMedicineWebApp\obj\Debug\CommunityMedicineWebApp.pdb
+C:\Users\Shakil\Desktop\Testing for Comunity\Community for Medicineupdate\CommunityMedicineWebApp\CommunityMedicineWebApp\bin\CommunityMedicineWebApp.dll
+C:\Users\Shakil\Desktop\Testing for Comunity\Community for Medicineupdate\CommunityMedicineWebApp\CommunityMedicineWebApp\bin\CommunityMedicineWebApp.pdb
+C:\Users\Shakil\Desktop\Testing for Comunity\Community for Medicineupdate\CommunityMedicineWebApp\CommunityMedicineWebApp\obj\Debug\CommunityMedicineWebApp.csprojResolveAssemblyReference.cache
+C:\Users\Shakil\Desktop\Testing for Comunity\Community for Medicineupdate\CommunityMedicineWebApp\CommunityMedicineWebApp\obj\Debug\CommunityMedicineWebApp.dll
+C:\Users\Shakil\Desktop\Testing for Comunity\Community for Medicineupdate\CommunityMedicineWebApp\CommunityMedicineWebApp\obj\Debug\CommunityMedicineWebApp.pdb
+G:\Personal\BITM after E\Community Medicine Working File\CommunityMedicineWebApp\CommunityMedicineWebApp\bin\itextsharp.dll
+G:\Personal\BITM after E\Community Medicine Working File\CommunityMedicineWebApp\CommunityMedicineWebApp\bin\itextsharp.pdfa.dll
+G:\Personal\BITM after E\Community Medicine Working File\CommunityMedicineWebApp\CommunityMedicineWebApp\bin\itextsharp.xml
+C:\Users\sadiq\Downloads\Compressed\Community Medicine Working File\Community Medicine Working File\CommunityMedicineWebApp\CommunityMedicineWebApp\bin\CommunityMedicineWebApp.dll.config
+C:\Users\sadiq\Downloads\Compressed\Community Medicine Working File\Community Medicine Working File\CommunityMedicineWebApp\CommunityMedicineWebApp\bin\CommunityMedicineWebApp.dll
+C:\Users\sadiq\Downloads\Compressed\Community Medicine Working File\Community Medicine Working File\CommunityMedicineWebApp\CommunityMedicineWebApp\bin\CommunityMedicineWebApp.pdb
+C:\Users\sadiq\Downloads\Compressed\Community Medicine Working File\Community Medicine Working File\CommunityMedicineWebApp\CommunityMedicineWebApp\bin\itextsharp.dll
+C:\Users\sadiq\Downloads\Compressed\Community Medicine Working File\Community Medicine Working File\CommunityMedicineWebApp\CommunityMedicineWebApp\bin\itextsharp.pdfa.dll
+C:\Users\sadiq\Downloads\Compressed\Community Medicine Working File\Community Medicine Working File\CommunityMedicineWebApp\CommunityMedicineWebApp\bin\itextsharp.xml
+C:\Users\sadiq\Downloads\Compressed\Community Medicine Working File\Community Medicine Working File\CommunityMedicineWebApp\CommunityMedicineWebApp\obj\Debug\CommunityMedicineWebApp.csprojResolveAssemblyReference.cache
+C:\Users\sadiq\Downloads\Compressed\Community Medicine Working File\Community Medicine Working File\CommunityMedicineWebApp\CommunityMedicineWebApp\obj\Debug\CommunityMedicineWebApp.dll
+C:\Users\sadiq\Downloads\Compressed\Community Medicine Working File\Community Medicine Working File\CommunityMedicineWebApp\CommunityMedicineWebApp\obj\Debug\CommunityMedicineWebApp.pdb
